@@ -120,7 +120,6 @@ public class Cadastro {
 		while (rst.next()) {
 			counter++;
 			Integer id = rst.getInt(1);
-			System.out.println("Produto inserido com sucesso, id do produto inserido: " + id);
 			
 			if (counter == 1) {
 				idUpdate = id;
