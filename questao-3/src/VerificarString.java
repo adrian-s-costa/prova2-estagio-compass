@@ -39,7 +39,7 @@ public class VerificarString {
 			}
 			
 			//como o indicado é que uma frase só tenha o emoji de só um tipo de humor, então o teste de cada humor verifica se só 
-			//um tipo de humor na frase, caso sim a frase recebe aquele humor, caso contrário recebe "neutro" 
+			// há um tipo de humor na frase, caso sim a frase recebe aquele humor, caso contrário recebe "neutro" 
 			
 			for (int c = 0; c < contador.length(); c++) {
 				testeDivertido += "a";
